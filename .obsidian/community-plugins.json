@@ -1,6 +1,6 @@
 [
   "obsidian-icons-plugin",
-  "cmenu-plugin",
   "obsidian-style-settings",
-  "obsidian-git"
+  "obsidian-git",
+  "cmenu-plugin"
 ]
